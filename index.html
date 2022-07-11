@@ -1,0 +1,277 @@
+<!DOCTYPE html> 
+
+<head>
+
+<meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+
+<title>Dream University</title>
+
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+
+</head>
+
+
+<body>
+
+<section class="header">
+
+<nav>
+
+<a href="index.html"><img src="logo.png"></a>
+
+<div class="nav-links" id="navlinks">
+
+<i class="fa fa-times" onclick="hidemenu()"></i>
+
+<ul>
+
+<li><a href="">HOME</a></li>
+<li><a href="">COURSES</a></li>
+<li><a href="">CAMPUS</a></li>
+<li><a href="">FACILITIES</a></li>
+<li><a href="">ABOUT</a></li>
+
+</ul>
+
+</div>
+
+<i class="fa fa-bars" onclick="showmenu()"></i>
+
+</nav>
+
+<div class="text-box">
+
+<h1>WORLD BEST UNIVERSITY</h1>
+
+<p>Making this website with the help of CSS,HTML & Youtube.<br>It will provide details for the existing courses and for more exposures of the university.</p>
+<a href="" class="hero-btn">Visit us to know more</a>  
+
+</section>
+
+<!---------COURSE--------------->
+
+<section class="course">
+
+<h1>Courses we offer</h1>
+
+<p>The courses are constructed in an elite manner.</p>
+
+<div class="row">
+<div class="course-col">
+<h3>Degree</h3>
+
+<p> The Degree course is the next step after the beginners course. Expand your speaking and writing skills with this course.</p>
+</div>
+
+
+<div class="course-col">
+<h3>Intermediate</h3>
+
+<p> The intermediate course is the next step after the degree course. Expand your speaking and writing skills with this course.</p>
+</div>
+
+
+<div class="course-col">
+<h3>Post Graduation</h3>
+
+<p> The post graduation course is the next step after the intermediate course. Expand your speaking and writing skills with this course.</p>
+</div>
+
+</section>
+ 
+ <!---------CAMPUS-------------------->
+ 
+ <section class="campus">
+ 
+ <h1> Our Global Campus </h1>
+ 
+<p>A campus is traditionally the land on which a college or university and related institutional buildings are situated, here is our campus details.</p>
+
+
+<div class="row">
+
+<div class="campus-col">
+
+<img src="newyork.png">
+
+<div class="layer">
+
+<h3> NEW YORK </h3>
+
+</div>
+
+</div>
+
+<div class="campus-col">
+
+<img src="london.png">
+
+<div class="layer">
+
+<h3> LONDON </h3>
+
+</div>
+
+</div>
+
+<div class="campus-col">
+
+<img src="washington.png">
+
+<div class="layer">
+
+<h3> WASHINGTON </h3>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!--------FACILITIES---------------->
+
+<section class="facilities">
+
+<h1> Our Facilities</h1>
+
+<p> We try to provide the best facilities.</p>
+
+<div class="row">
+
+<div class="facilities-col">
+
+<img src="library.png">
+
+<h3> Dream Library </h3>
+
+<p> The best library with many books along with cafeteria, soft music for concentration and also with no time limit. </p>
+
+</div>
+
+<div class="facilities-col">
+
+<img src="basketball.png">
+
+<h3> Dream Basketball Ground </h3>
+
+<p> The best basketball ground with flashlight, gallary for audience along with high level music system and screen. </p>
+
+</div>
+
+<div class="facilities-col">
+
+<img src="cafeteria.png">
+
+<h3> Dream Cafeteria </h3>
+
+<p> The best Cafeteria with many books from library, for reasonable price and also soft music for setting the mood. </p>
+
+</div>
+
+</div>
+
+
+</section>
+
+<!----------TESTIMONIALS---------->
+
+<section class="testimonials">
+
+<h1> Students Opinion </h1>
+
+<p>a formal statement testifying to someone's character and qualifications.</p>
+
+<div class="row">
+
+<div class="testimonials-col">
+
+<img src="user1.jpg">
+
+<div>
+
+<p> She is a student. She is the head girl of the university. </p>
+
+<h3> Cristine Berkley </h3>
+
+
+</div>
+
+</div>
+
+<div class="testimonials-col">
+
+<img src="user2.jpg">
+
+<div>
+
+<p> He is a student. He is the head boy of the university. </p>
+
+<h3> David Byer </h3>
+
+
+</div>
+
+</div>
+
+</div>
+
+
+
+</section>
+
+
+<!-----------CALL TO ACTION------------------>
+
+<section class="cta">
+
+<h1> Enroll For Our Various Online Courses From Anywhere Of The World</h1>
+
+<a href="" class="hero-btn"> CONTACT US </a>
+
+</section>
+
+
+<!-------------FOOTER--------------->
+
+<section class="footer">
+
+<h4> ABOUT US </h4>
+
+<p> We are the best university which gives students their dream exposures and the best eductional modivation and knowledge.</p>
+
+<p> Made by <b>PAROLIK CREATIONS</b> </p>
+
+</section>
+
+
+
+
+
+
+
+
+<!-------JAVA SCRIPT FOR TOGGLE VALUE------>
+<script>
+
+var navLinks = document.getElementsById("navLinks");
+
+function showmenu()
+{
+	navLinks.style.right="0";
+}
+
+function hidemenu()
+{
+	navLinks.style.right="-200px";
+}
+
+</script>
+
+</body>
+</html>
